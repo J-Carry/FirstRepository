@@ -6,7 +6,6 @@ public class Delete {
 
 	private String status ;
 	
-	public String alert ;
 	
 	public String getStatus() {
 		return status;
