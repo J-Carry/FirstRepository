@@ -6,7 +6,31 @@ public class Bean {
 	
 	private String length ;
 	
+	private int age ;
 	
+	
+	
+	
+	public Bean() {}
+
+
+	public Bean(String name, String length, int age) {
+		this.name = name;
+		this.length = length;
+		this.age = age;
+	}
+
+
+	public int getAge() {
+		return age;
+	}
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
 	public String getName() {
 		return name;
 	}
@@ -26,12 +50,5 @@ public class Bean {
 		this.length = length;
 	}
 
-
-	public Bean(String name, String length) {
-		super();
-		this.name = name;
-		this.length = length;
-	}
-	
 	
 }
